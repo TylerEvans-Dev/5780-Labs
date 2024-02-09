@@ -107,7 +107,6 @@ int main(void)
         if (debouncer == 0x7FFFFFFF) {
             // This code triggers only once when transitioning to steady high!
             GPIOC->ODR ^= (1<<7);
-            GPIOC->ODR
             GPIOC->ODR ^= (1<<6);
         }
     }
