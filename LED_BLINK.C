@@ -96,8 +96,7 @@ int main(void) {
 	//sets all the values in modder to the correct pin into input mode.
 	GPIOC->MODER |= (1<< 12) | (1 << 14) | (1<< 16) | (1 << 18);
 	//selects the type of mode desired. 
-//	GPIOC->OTYPER &= !((1<<6) | (1<<7)|(1<< 8) | (1 << 9));
-//	GPIOC->OSPEEDR &= !((1<<12) | (1<<14)|(1<< 16) | (1 << 18));
+
 	
 	 
 	
